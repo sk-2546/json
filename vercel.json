@@ -1,0 +1,16 @@
+{
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS,POST" },
+        { "key": "Access-Control-Allow-Headers", "value": "Content-Type" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" },
+        { "key": "X-Author", "value": "Shubham" },
+        { "key": "X-Developer", "value": "Shubham" },
+        { "key": "X-API-Version", "value": "1.0" }
+      ]
+    }
+  ]
+}
